@@ -1,0 +1,15 @@
+# Archivos/carpetas generados por el editor (VS Code, etc.)
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Librerías de dependencia (si las agregas más adelante)
+# node_modules/ 
+# vendor/ 
+
+# Carpeta de subida a producción (si la usás, ej: /dist)
+# /dist

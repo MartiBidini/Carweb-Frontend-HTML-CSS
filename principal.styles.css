@@ -1,0 +1,361 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Poppins', sans-serif;
+}
+/*Header*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5px 40px;
+    background-color: rgb(15, 15, 15);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:1000;
+    padding-right: 220px;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+.nav_item a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav_item a:hover{
+    color: grey;
+}
+.item_boton{
+    color: rgb(240, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 0 0 1px white;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+.item_boton:hover{
+    background-color: rgb(83, 82, 82);
+    box-shadow: 0 0 2px white;
+}
+.nav_logo img{
+    width: 165px
+    }
+.nav{
+    display: flex;
+    justify-content:center;
+    flex:1 ;
+}
+
+/*Main banner*/
+
+.hero{
+    position: relative;
+    margin-top: 127px;
+    width: 100%;
+    height: 350px;
+}
+.hero .overplay_hero{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 100%;
+    height:100%;
+    top: 0;
+}
+.hero img.banner{
+    width: 100%;
+    height: 100%;
+}
+.hero_content{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:23%;
+    left: 22%;
+}
+.hero_title{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+}
+.hero_lorem{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+.boton_hero{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(156, 152, 152);
+    border-radius: 10px;
+    font-family:'Poppins', sans-serif;
+    transition: 0.6s;
+}
+.boton_hero:hover {
+    background-color: rgb(191, 188, 188);
+    box-shadow: 0 0 3px 0 rgb(234, 232, 232);
+    cursor: pointer;
+}
+
+/*Main Barra de busqueda*/
+
+.main_title{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input_buscador{
+    margin-left: 395px;
+    width:37%;
+    padding: 10px 10px 10px 40px;
+    font-size: 17px;
+    background-color: rgb(232, 225, 225);
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 65px;
+}
+.barra_busqueda{
+    position: relative;
+    margin: auto;
+}
+.icon{
+    position: absolute;
+    top: 11.5%;
+    left: 27%;
+    color: #6e6e6e;
+}
+
+/*Aside izquierda*/
+
+.aside_opciones{
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.text_ordenar{
+    margin-left: 1px;
+    margin-bottom: 5px;
+}
+.jajant{
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+.select_1{
+    padding: 9px 80px 9px 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+    border:  solid 1px rgb(123, 121, 121);
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.h3_marcas{
+    margin-left: 3px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.filtrar label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 137px;
+}
+.ver_todo{
+    cursor: pointer;
+    width: 130px;
+}
+.filtrar input[type="radio"] {
+    margin-right: 8px;
+    accent-color: black;
+    }
+    .title_precio{
+        margin-top: 15px;
+        margin-bottom:5px;
+    }
+    .input_precio{
+        border-radius: 7px;
+        display: flex;
+        border: none;
+        border:  solid 2px rgb(123, 121, 121);
+        padding:10px 2px 10px 2px ;
+        margin-bottom: 10px;
+        background-color: rgb(241, 241, 241);
+        outline: none;
+    }
+    .boton_precio{
+        position:absolute;
+        top: 172%;
+        left: 16.5%;
+        border: none;
+        width: 10px;
+        cursor:pointer;
+    }
+    .boton_precio2{
+        position:absolute;
+        top: 179%;
+        left: 16.5%;
+        border: none;
+        width: 10px;
+        cursor:pointer;
+    }
+
+    /*Catalogo*/
+
+    .card_content{
+position: absolute;
+width: 300px;
+height: 470px;
+left: 26%;
+top: 100%;
+box-shadow:0 0 6px rgb(147, 144, 144);
+border: solid 1px rgb(199, 199, 199);
+cursor: pointer;
+margin-top: 20px;
+border-radius: 7px;
+}
+    .card_content:hover{
+    box-shadow:0 0 9px rgb(147, 144, 144);
+    }
+.card_img{
+        width: 300px;
+        height: 195px;
+    }
+    .card_details{
+        margin-left: 60px;
+        margin-top: 15px;
+        color: #626161;
+    }
+.card_title{
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card_subtitle{
+    margin-left: 25px;
+    font-size:18px;
+    color: #626161;
+}
+.card_precio{
+    color: #7b7a7a;
+    display: inline-flex;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.plata{
+    color: black;
+    margin-left:15px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.price{
+    margin-top: 7px;
+}
+.segundo{
+    left: 48%;
+}
+.tercero{
+    left: 70%;
+}
+.boton_vermas{
+    position: absolute;
+    left: 48%;
+    top: 173%;
+    padding: 10px 15px;
+    background-color: rgb(26, 25, 25);
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.boton_vermas:hover{
+    background-color: #000000;
+    box-shadow: 0 0 4px rgb(60, 59, 59);
+    padding: 11px 16px;
+}
+
+    /*Footer*/
+
+    .linea_gris{
+        width: 100%;
+        height: 1px;
+        background-color: rgb(187, 185, 185);
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .logo_footer{
+        width: 15%;
+        height: 15%;
+        margin-left: 60px;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    .footer_section{
+        position: absolute;
+        left: 20%;
+        top: 196%;
+        margin-top: 35px;
+    }
+    .servicios{
+        left: 35% ;
+    }
+    .nosotros{
+        left: 50%;
+    }
+    .title_footer{
+        margin-bottom: 17px;
+    }
+    .footer_items{
+        color: rgb(52, 51, 51);
+        text-decoration: none;
+        margin-bottom: 15px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .contacto{
+        left: 65%;
+        top: 196%;
+    }
+    .llamar{
+        margin-bottom: 15px;
+    }
+    .text_contacto{
+        color: rgb(52, 51, 51);
+        font-size: 15px;
+    }
+    .segunda{
+        margin-top: 90px;
+    }
+    .footer_copy{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 90px;
+    }
+
+
+
+
+
+

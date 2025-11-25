@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMarket</title>
+    <link rel="stylesheet" href="principal.styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon"href="Logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+    <div class="nav_logo">
+        <img class="Logo" src="AutoMarket.png" alt="AutoMarket Logo">
+    </div>
+    <nav class="nav">
+    <ul class="nav_list">
+    <li class="nav_item"><a href="" class="item_menu">Inicio</a></li>
+    <li class="nav_item"><a href=""class="item_menu">Catalogo</a></li>
+    <li class="nav_item"><a href="#contacto"class="item_menu">Contacto</a></li>
+    <li><a href=""class="item_boton">Publicar Auto</a></li>
+    </ul>
+    </nav>
+    </header>
+        <div class="hero">
+            <img class="banner" src="banner2.jpg" alt="">
+            <div class="overplay_hero"></div>
+            <div class="hero_content">
+    <h1 class="hero_title">Tu proximo auto te espera en AutoMarket</h1>
+    <h3 class="hero_lorem">Explora las mejores opciones, precios únicos y la confianza que buscás</h3>
+    <a href="" class="boton_hero">Ir al Catálogo</a>
+    </div>
+        </div>
+        <h1 class="main_title">Encontrá tu próximo auto en nuestro catálogo</h1>
+        <div class="barra_busqueda"> 
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+        <input  class="input_buscador" type="text" placeholder="Escribi la marca,modelo o version del auto"></div>
+        <aside class="aside_opciones">
+            <h3 class="text_ordenar">Ordenar por</h3>
+            <select class="select_1" id="select_1">
+                <option class="opciones" value="">Menor Precio</option>
+                <option class="opciones" value="">Mayor Precio</option>
+                <option class="opciones" value="">Menor kilometraje</option>
+                <option class="opciones" value="">Mayor kilometraje</option>
+                <option class="opciones" value="">Menor antiguedad</option>
+                <option class="opciones" value="">Mayor antiguedad</option>
+            </select>
+            <div class="filtrar">
+            <h3 class="h3_marcas">Marcas</h3>
+            <label><input type="radio" checked>Todos (198)</label>
+            <label><input type="radio">Fiat (23)</label>
+            <label><input type="radio">Bmw (12)</label>
+            <label><input type="radio">Renault (18)</label>
+            <label><input type="radio">Citroen (21)</label>
+            <label><input type="radio">Toyota (16)</label>
+            <label><input type="radio">Ford (19)</label>
+            <label><input type="radio">Chevrolet (26)</label>
+            </div>
+            <div class="ver_todo"><a href=""></a>Ver Todo</div>
+            <div class="rango_precio">
+                <h3 class="title_precio">Precio</h3>
+                <form>
+            <input class="input_precio " type="number" placeholder="Mínimo 5.700" required>
+            <button class="boton_precio" type="submit">➤</button>
+            <input class="input_precio " type="number" placeholder="Máximo 118.700">
+            <button class="boton_precio2" type="submit">➤</button>
+            </div>
+            </form>
+        </aside>
+        <main class="catalogo">
+            <div class="card_content">
+                <img src="CLIO.png" alt="clio" class="card_img">
+    <h2 class="card_title">Renault Clio</h2>
+    <p class="card_subtitle">Mio 1.2 3 P Confort</p>
+    <ul class="card_details">
+        <li>Usados</li>
+        <li>2013 | 109.200 km</li>
+        <li>Combustible Nafta</li>
+        <li>Transmisión Manual</li>
+    </ul>
+    <div class="card_precio"> 
+        <h4 class="price">Precio</h4>
+        <h3 class="plata">$ 9.400usd</h3>
+    </div>
+    </div>
+    <div class="card_content segundo">
+                <img src="nissan.png" alt="Nissan Frontier" class="card_img">
+    <h2 class="card_title">Nissan Frontier</h2>
+    <p class="card_subtitle">2.3 Turbo 4x4 Platinum At</p>
+    <ul class="card_details">
+        <li>Usados</li>
+        <li>2022 | 120.900 km</li>
+        <li>Combustible Diesel</li>
+        <li>Transmisión Automatico</li>
+    </ul>
+    <div class="card_precio"> 
+        <h4 class="price">Precio</h4>
+        <h3 class="plata">$ 30.700usd</h3>
+    </div>
+    </div>
+    <div class="card_content tercero">
+                <img src="toyota.png" alt="Toyota Corolla" class="card_img">
+    <h2 class="card_title">Toyota Corolla</h2>
+    <p class="card_subtitle">1.8 Se-g Cvt L17</p>
+    <ul class="card_details">
+        <li>Usados</li>
+        <li>2018 | 113.400 km</li>
+        <li>Combustible Nafta</li>
+        <li>Transmisión Automatico</li>
+    </ul>
+    <div class="card_precio"> 
+        <h4 class="price">Precio</h4>
+        <h3 class="plata">$ 17.100usd</h3>
+    </div>
+    </div>
+    <a href="" class="boton_vermas">Ver Mas Autos</a>
+    </main>
+    <footer id="contacto">
+    <div class="linea_gris"></div>
+    <img class="logo_footer" src="logo_negro_fuerte.png" alt="Logofooter">
+    <div class="footer_section">
+        <h2 class="title_footer">Autos</h2>
+        <h5 class="footer_items">Automarket Usados</h5>
+        <h5 class="footer_items">Automarket Empresas</h5>
+    </div>
+    <div class="footer_section servicios">
+        <h2 class="title_footer">Servicios</h2>
+        <h5 class="footer_items">Planes de ahorro</h5>
+        <h5 class="footer_items">Post Venta</h5>
+    </div>
+    <div class="footer_section nosotros">
+        <h2 class="title_footer">AutoMarket</h2>
+        <h5 class="footer_items">Nosotros</h5>
+        <h5 class="footer_items">Novedades</h5>
+    </div>
+    <div class="footer_section contacto">
+        <i class="fas fa-phone llamar"></i> 0810 762 4000
+        <h5 class="text_contacto">Córdoba: Lunes a Sabado de 8:30 a 19:30 hs</h5>
+    </div>
+    <div class="linea_gris segunda"></div>
+    <p class="footer_copy">©2025 automarket.com.ar Todos los derechos reservados Términos y Condiciones | Política de calidad Autocity Usados | Legales</p>
+    </footer>
+</body>
+</html>
